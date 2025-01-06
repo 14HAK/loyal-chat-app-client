@@ -1,0 +1,69 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite
+dist/
+.vite/
+*.local
+
+# Logs
+logs/
+*.log
+yarn.lock
+*.log.*
+test.ts
+test.json
+
+# Build output
+build/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swd
+
+# MacOS
+.DS_Store
+
+# Prettier
+.prettiercache
+
+# ESLint
+.eslintcache
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+jest/
+
+# Other
+*.cache
+*.bak
+*.tmp
+*.lock
+
+# Storybook (if using)
+storybook-static/
+.out/
